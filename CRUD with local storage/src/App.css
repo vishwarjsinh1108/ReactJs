@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.app-background {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #e0f7fa;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid #00ffc3;
+}
+
+.text-neon {
+  color: #00ffc3;
+  text-shadow: 0 0 5px #00ffc3, 0 0 10px #00ffc3;
+}
+
+.custom-input {
+  background-color: #1c1c1c;
+  color: #fff;
+  border: 1px solid #00ffc3;
+  border-radius: 8px;
+}
+
+.custom-input::placeholder {
+  color: #bbb;
+}
+
+.neon-btn {
+  border-radius: 8px;
+  font-weight: 500;
+  border: none;
+  box-shadow: 0 0 10px #00ffc3;
+  transition: all 0.3s ease;
+}
+
+.neon-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00ffc3;
+}
+
+.table-dark {
+  background-color: #111;
+  color: #00ffc3;
+}
+
+.table thead th {
+  background-color: #00ffc3;
+  color: #111;
+  border-bottom: 2px solid #00ffc3;
+}
+
+.border-neon {
+  border: 2px solid #00ffc3 !important;
+}
